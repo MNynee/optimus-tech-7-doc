@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url(header.css);
+
+:root {
+    --bg-principal: #FFFFFF;
+    --bg-secundario: #FDF8F8;
+    --bg-rodape: #F9FAFB;
+    --cor-destaque: #8E2424;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+    --cor-logo: #3A404E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--bg-branco);
+}
