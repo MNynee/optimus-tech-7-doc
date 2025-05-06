@@ -1,0 +1,44 @@
+.vagas {
+    margin: 0 7rem 6rem 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 65%;
+}
+
+.vagas__container__titulo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: var(--cor-titulo);
+}
+
+.vagas__container__box {
+    padding: 1.5rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+}
+
+.vagas__container__box__subtitulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    margin-bottom: 2rem;
+}
+
+.vagas__container__box__detalhes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.vagas__container__box__detalhes__texto {
+    font-weight: 500;
+    color: var(--cor-texto);
+}

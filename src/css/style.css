@@ -2,15 +2,19 @@
 
 @import url(header.css);
 @import url(metricas.css);
+@import url(banner.css);
+@import url(vagas.css);
 
 :root {
     --bg-principal: #FFFFFF;
     --bg-secundario: #FDF8F8;
     --bg-rodape: #F9FAFB;
+    --bg-destaque: #F9F4F4;
     --cor-destaque: #8E2424;
     --cor-titulo: #101828;
     --cor-texto: #667085;
     --cor-logo: #3A404E;
+    --cor-borda: #EAECF0;
 }
 
 * {
