@@ -1,0 +1,52 @@
+.rodape {
+    padding: 6rem 0;
+    text-align: center;
+    background-color: var(--bg-rodape);
+}
+
+.rodape__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.rodape__texto {
+    font-size: 1.25rem;
+    color: var(--cor-texto);
+    margin: 1.25rem 0 2.5rem 0;
+}
+
+.rodape__cadastro__input {
+    padding: .75rem .825rem;
+    color: var(--cor-texto);
+    width: 25%;
+    border: 1px solid var(--borda-input);
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.rodape__cadastro__input::placeholder {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--cor-texto);
+}
+
+.rodape__cadastro__botao {
+    background-color: var(--cor-destaque);
+    font-weight: 500;
+    color: var(--bg-principal);
+    border: none;
+    border-radius: 8px;
+    padding: .75rem 1.25rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.rodape__cadastro__botao:hover {
+    background-color: var(--hover-botao);
+    transition: .1s;
+}
+
+.rodape__copyright {
+    color: var(--cor-texto-rodape);
+}

@@ -1,6 +1,6 @@
 # Projeto do Desafio 7 Days of Code durante curso de mobile-first na Alura.
 
-<img src="src/img/loading-chargement.gif">
+<img src="src/img/ImageReadme.png">
 
 ## Ferramentas utilizadas (até o momento):
 

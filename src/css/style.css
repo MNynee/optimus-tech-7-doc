@@ -4,6 +4,7 @@
 @import url(metricas.css);
 @import url(banner.css);
 @import url(vagas.css);
+@import url(footer.css);
 
 :root {
     --bg-principal: #FFFFFF;
@@ -11,10 +12,14 @@
     --bg-rodape: #F9FAFB;
     --bg-destaque: #F9F4F4;
     --cor-destaque: #8E2424;
+    --hover-botao: #4B1313;
     --cor-titulo: #101828;
     --cor-texto: #667085;
+    --cor-texto-rodape: #98A2B3;
     --cor-logo: #3A404E;
     --cor-borda: #EAECF0;
+    --borda-input: #D0D5DD;
+    --fonte: 'Inter', sans-serif;
 }
 
 * {
@@ -28,7 +33,7 @@ ul {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte);
     font-size: 16px;
     font-weight: 400;
     background-color: var(--bg-branco);
