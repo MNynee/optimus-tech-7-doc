@@ -50,3 +50,13 @@
 .rodape__copyright {
     color: var(--cor-texto-rodape);
 }
+
+@media screen and (max-width: 600px) {
+    .rodape {
+        padding: 6rem 2rem;
+    }
+
+    .rodape__cadastro__input {
+        width: 50%;
+    }
+}

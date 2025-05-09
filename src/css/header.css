@@ -1,28 +1,35 @@
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    gap: 7.5rem;
     padding: 1.125rem 7rem;
 }
 
-.cabecalho__container {
-    display: flex;
-    gap: 7rem;
-}
-
-.cabecalho__container__logo {
+.cabecalho__logo {
     display: flex;
     align-items: center;
     gap: .25rem;
 }
 
-.cabecalho__container__logo__img {
+.cabecalho__logo__img {
     width: 1.625rem;
 }
 
-.cabecalho__container__logo__texto {
+.cabecalho__logo__texto {
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--cor-logo);
+}
+
+.cabecalho__rotulo,
+.cabecalho__botao {
+    display: none;
+}
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 60vw;
 }
 
 .cabecalho__container__lista {
@@ -42,25 +49,90 @@
     color: var(--cor-texto);
 }
 
-.cabecalho__botoes {
+.cabecalho__container__botoes {
     display: flex;
     gap: .75rem;
 }
 
-.cabecalho__botoes__link {
+.cabecalho__container__botoes__link {
     padding: .625rem 1.125rem;
     color: var(--cor-texto);
     font-weight: 500;
     text-decoration: none;
 }
 
-.cabecalho__botoes--link-2 {
+.cabecalho__container__botoes--link-2 {
     background-color: var(--cor-destaque);
     color: var(--bg-principal);
     border-radius: 8px;
 }
 
-.cabecalho__botoes--link-2:hover {
+.cabecalho__container__botoes--link-2:hover {
     background-color: var(--hover-botao);
     transition: .1s;
+}
+
+@media screen and (max-width: 850px) {
+    .cabecalho {
+        position: relative;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .cabecalho__botao:checked ~ .cabecalho__container {
+        display: block;
+    }
+
+    .cabecalho__botao:checked ~ .cabecalho__rotulo > .cabecalho__menu {
+        background-image: url('../img/close_32dp_8E2424_FILL0_wght400_GRAD0_opsz40.svg');
+    }
+
+    .cabecalho__rotulo {
+        display: flex;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        background-image: url('../img/menu_32dp_8E2424_FILL0_wght400_GRAD0_opsz40.svg');
+    }
+
+    .cabecalho__container {
+        background-color: var(--bg-principal);
+        width: 40vw;
+        padding: 2rem 0;
+        flex-direction: column;
+        position: absolute;
+        left: 60%;
+        top: 100%;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: none;
+    }
+
+    .cabecalho__container__lista {
+        flex-direction: column;
+    }
+
+    .cabecalho__container__lista__item__link {
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__container__botoes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .cabecalho__container__botoes__link {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho__container {
+        width: 60vw;
+        left: 40%;
+    }
 }

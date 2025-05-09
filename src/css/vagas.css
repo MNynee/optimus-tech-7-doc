@@ -42,3 +42,9 @@
     font-weight: 500;
     color: var(--cor-texto);
 }
+
+@media screen and (max-width: 600px) {
+    .vagas {
+        margin: 0 2rem 6rem 2rem;
+    }
+}
