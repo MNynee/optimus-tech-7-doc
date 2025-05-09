@@ -2,7 +2,7 @@
 
 <img src="src/img/ImageReadme.png">
 
-## Ferramentas utilizadas (até o momento):
+## Ferramentas utilizadas:
 
 * HTML
 
