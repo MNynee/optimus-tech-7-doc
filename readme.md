@@ -1,4 +1,4 @@
-# Projeto do Desafio 7 Days of Code durante curso de mobile-first na Alura.
+# Projeto do Desafio 7 Days of Code durante curso de HTML-CSS na Alura.
 
 <img src="src/img/ImageReadme.png">
 
